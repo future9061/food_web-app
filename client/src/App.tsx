@@ -1,8 +1,13 @@
 import React from "react";
 import "./App.css";
+import Home from "./pages/Home";
 
 function App() {
-  return <div className="App">프로젝트 생성</div>;
+  return (
+    <div className="App">
+      <Home />
+    </div>
+  );
 }
 
 export default App;
